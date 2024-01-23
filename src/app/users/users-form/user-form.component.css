@@ -1,0 +1,66 @@
+/* user-form.component.css */
+
+/* Form Container */
+.form-container {
+    max-width: 400px;
+    margin: auto;
+}
+
+/* Form Header */
+.form-header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Form Inputs */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Inputs in One Row */
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.row input {
+    flex: 1;
+}
+
+/* Centered Submit Button */
+.center-submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Error Message Style */
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+/* autocomplete.component.css */
+.autocomplete-list {
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+}
+
+.autocomplete-list div {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.autocomplete-list div:hover {
+    background-color: #f0f0f0;
+}

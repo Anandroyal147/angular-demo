@@ -1,0 +1,21 @@
+<div class="user-table">
+      <div class="d-flex jc-between heading">
+            <h2 class="">Users List</h2>
+      </div>
+      <table class="table" >
+            <thead>
+                  <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Role</th>
+                  </tr>
+            </thead>
+            <tbody>
+                  <tr *ngFor="let client of clients">
+                        <td>{{client?.userName}}</td>
+                        <td>{{client.email}}</td>
+                        <td>{{client?.role}}</td>
+                  </tr>
+            </tbody>
+      </table>
+</div>
